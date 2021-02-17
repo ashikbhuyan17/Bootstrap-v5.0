@@ -18,7 +18,7 @@
         <form class="w-50">
             <!-- email -->
             <div class="mb-2">
-                <label for="exampleInputName" class="form-label">yourName</label>
+                <label for="exampleInputName" class="form-label">Full Name</label>
                 <input type="email" class="form-control" id="exampleInputName">
             </div>
             <div class=" form-group mb-2">
@@ -48,12 +48,26 @@
             </div>
 
             <!-- gender -->
-            
+            <div class="mb-3">
+                <label class="form-label" for="gender">Gender</label>
+                <select class="form-control" name="" id="gender">
+                    <option value="">Male</option>
+                    <option value="">Female</option>
+                </select>
+            </div>
+
+            <!-- text area -->
+            <div class="mb-3">
+                <label class="form-label" for="text">Text Area</label>
+                <textarea class="form-control" id="text" cols="30" rows="10"></textarea>
+            </div>
 
             <!-- file -->
             <div class="mb-3">
                 <label for="formFile" class="form-label">Default file input example</label>
                 <input class="form-control" type="file" id="formFile">
+                <li style="list-style:disc;" class="form-text text-muted">max 3mb size</;>
+
             </div>
 
             <!-- Color picker -->
